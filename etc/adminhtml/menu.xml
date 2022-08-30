@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Colissimo Rule Module
+ *
+ * @author    Magentix
+ * @copyright Copyright © 2019 Magentix. All rights reserved.
+ * @license   https://www.magentix.fr/en/licence.html Magentix Software Licence
+ * @link      https://colissimo.magentix.fr/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Colissimo_Rule::rule" title="Offers" module="Colissimo_Rule" parent="Colissimo_Shipping::shipping" sortOrder="20" resource="Colissimo_Rule::rule" action="colissimo_rule/colissimo_rule" />
+    </menu>
+</config>
